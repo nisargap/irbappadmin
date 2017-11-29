@@ -16,7 +16,7 @@ class App extends Component {
     }
   }
   initSockets() {
-    this.wsConn = new WebSocket("ws://localhost:3030/v1/ws");
+    this.wsConn = new WebSocket("ws://nisarga.io:3030/v1/ws");
     this.wsConn.onmessage = (e) => {
       let chatHistory = this.state.chatHistory;
       let chatObj = JSON.parse(e.data);

@@ -1,7 +1,7 @@
 {
   "name": "irbappadmin",
   "version": "0.1.0",
-  "homepage": "https://nisargap.github.io/irbappadmin",
+  "homepage": "http://irbappadmin.s3-website-us-east-1.amazonaws.com",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.0.0",
